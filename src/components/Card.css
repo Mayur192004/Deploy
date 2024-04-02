@@ -1,0 +1,81 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 15%;
+    
+
+}
+
+.image{
+    aspect-ratio: square;
+    width: 150px;
+    height: 140px;
+    border-radius: 50%;
+}
+.image1{
+    position: absolute;
+    top:-5rem;
+    left:2rem;
+    z-index: 25;
+}
+
+
+.name{
+    position: absolute;
+    top:40px;
+    left:40%;
+}
+.exam_name{
+    color: rgb(196, 113, 113);
+    font-weight: bolder;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.para{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page_next{
+    display: flex;
+    flex-direction: row;
+   justify-content: flex-start;
+
+}
+
+.leftbutton{
+    margin-right: 50%;
+    margin-left: 20%;
+}
+
+.backcircle{
+    height: 140px;
+    width: 150px;
+    background-color: violet;
+    border-radius: 50%;
+    position: absolute;
+    top:-6rem;
+    left:3rem;
+    z-index: 20;
+
+}
+
+.readmore{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    left:70%;
+    bottom: 33.3%;
+    margin-bottom: 20px;
+}
